@@ -19,3 +19,12 @@ p {
     background-color: gray;
 }
 
+ul {
+    display: flex;
+    margin: 20px auto;
+    padding: 60px;
+}
+
+li {
+    padding: 15px;
+}
