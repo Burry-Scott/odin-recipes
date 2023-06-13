@@ -15,37 +15,72 @@
 .asparagus {
     height: 400px;
     width: auto;
-    margin: 20px 250px;
+    margin: 20px 30px;
     background-color: aqua;
-    overflow: hidden
+    padding: 10px;
+    display: inline-block;
 }
 
 .image {
-    height: 375px;    
-    margin: 10px;
-    display: block;
+    height: 400px;
 }   
 
-p {
+.paragraph {
     font-size: xx-large;
     background-color: gray;
-    margin: 30px 100px;
+    margin: 20px;
     padding: 10px;
+    width: 360px;
+    height: 400px;
+    display: inline-block;
     text-align: center;
+    vertical-align: top;
 }
 
 ul {
     margin: 20px auto;
-    padding: 60px;
+    padding: 50px;
 }
 
 li {
     padding: 15px;
     background-color: pink;
     text-align: center;
-    margin-top: 50px;
+    width: 50%;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20%;;
+
+}
+
+.recipelist {
+    padding: 10px;
+    margin: 15px;
+    display: block;
+}
+
+.recipelist2 {
+    text-align: center;
+    width: 75%;
+    margin: 75px;
 }
 
 h3 {
     text-align: center;
+}
+
+.ingredients {
+    display: inline-block;
+    width: 49%;
+    background-color: blueviolet;
+    vertical-align: top;
+    height: 550px;
+}
+
+.steps {
+    display: inline-block;
+    width: 49%;
+    background-color: blue;
+    vertical-align: top;
+    height: 550px;
 }
