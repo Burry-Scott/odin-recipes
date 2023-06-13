@@ -12,29 +12,32 @@
     height: 700px;;
 }
 
-.asparagus {
+.imgbox {
     height: 400px;
-    width: auto;
-    margin: 20px 30px;
+    width: 45%;
+    margin: 20px 1%;
     background-color: aqua;
     padding: 10px;
     display: inline-block;
 }
 
 .image {
-    height: 400px;
+    width: 95%;
+    height: 95%;
+    margin: 8px;
 }   
 
 .paragraph {
     font-size: xx-large;
     background-color: gray;
-    margin: 20px;
+    margin: 10px 1%;
     padding: 10px;
-    width: 360px;
+    width: 45%;
     height: 400px;
     display: inline-block;
     text-align: center;
     vertical-align: top;
+
 }
 
 ul {
@@ -71,7 +74,8 @@ h3 {
 
 .ingredients {
     display: inline-block;
-    width: 49%;
+    width: 45%;
+    margin: 2%;
     background-color: blueviolet;
     vertical-align: top;
     height: 550px;
@@ -79,7 +83,8 @@ h3 {
 
 .steps {
     display: inline-block;
-    width: 49%;
+    width: 45%;
+    margin: 2%;
     background-color: blue;
     vertical-align: top;
     height: 550px;
